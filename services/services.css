@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+
+     display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #35424a;
+    width: 100%;
+    border-bottom: 3px solid #a9508b;
+    
+}
+
+.header-left {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    margin: 20px 0px 20px 170px;
+    
+    
+    
+}
+
+.header-left > span {
+    color: #a9508b;
+    
+}
+
+.header-right {
+    margin: 20px 180px 5px 30%;
+}
+.header-right > a {
+    
+    margin-right: 30px;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+#services {
+    color: #a9508b;
+}
+#home:hover {
+    font-weight: bolder;
+}
+#services:hover {
+    color: white;
+}
+#about:hover {
+    font-weight: bolder;
+
+}
+
+
+.register {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #35424a;
+    color: white;
+    padding: 20px 150px;
+    
+}
+
+.register-left {
+    display: block;
+    margin: 10px 30px ;
+    padding-bottom: 10px;
+    width: 400px;
+    font-size: 20px;
+    
+    
+}
+
+.register-right {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 70px;
+    
+}
+
+#email {
+    height: 35px;
+    width: 250px;
+    margin-right: 3px;
+    padding-left: 15px;
+
+}
+
+#subscribe {
+    height: 35px;
+    width: 90px;
+    background-color: #a9508b;
+    border: 0px solid #a9508b;
+    color: white;
+}
+
+.main-container {
+    display: flex;
+    background-color: #f4f4f4;
+    padding: 5px;
+}
+
+#main-head {
+    margin: 15px 0px 15px 0%;
+}
+.main-left {
+    margin: 15px 40px 15px 10%;
+    width: 52%;
+}
+
+.design {
+    border: 1px solid gray;
+    padding: 40px 15px 20px 20px;
+    background-color: #e6e6e6;
+    margin-bottom: 4px;
+}
+.design p, h4 {
+    margin-bottom: 20px;
+}
+
+.maintenance {
+    border: 1px solid gray;
+    padding: 40px 15px 20px 20px;
+    background-color: #e6e6e6;
+    margin-bottom: 4px;
+}
+.maintenance p, h4 {
+    margin-bottom: 20px;
+}
+
+.hosting {
+    border: 1px solid gray;
+    padding: 40px 15px 20px 20px;
+    background-color: #e6e6e6;
+    margin-bottom: 4px;
+}
+.hosting p, h4 {
+    margin-bottom: 20px ;
+}
+
+.main-right {
+ background-color:#35424a ;
+ margin: 20px 5% 17% 40px;
+ color: white;
+ padding: 20px 40px 20px 15px;
+}
+.main-right h4 {
+    margin-top: 20px;
+}
+
+.main-right input {
+ width: 400px;
+ height: 25px;
+ 
+}
+.main-right label {
+    font-size: 15px;
+}
+
+
+#textarea {
+    width: 400px;
+    height: 40px;
+}
+
+#submit {
+    width: 70px;
+    padding: 10px;
+    height:40px ;
+    background-color: #a9508b;
+    color: white;
+    border: 0px solid #a9508b;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fffaf0;
+    border-top: 4px solid #a9508b;
+}
+
+#copyright {
+    margin-top:30px;
+    width: 400px;
+}
+
+#cw-logo {
+    width: 200px;
+    height: 40px;
+    margin-right: 100px;
+}
+
+@media (max-width:500px) {
+    header {
+
+        display: flex;
+       flex-wrap: wrap; 
+       justify-content: space-between;
+       padding: 10px;
+       background-color: #35424a;
+       width: 100%;
+       border-bottom: 3px solid #a9508b;
+       
+   }
+   
+   .header-left {
+       font-size: 30px;
+       color: white;
+       font-weight: bold;
+       margin: 20px 0px 10px 50px;
+   }
+   
+   .header-left > span {
+       color: #a9508b;
+       
+   }
+   
+   .header-right {
+       margin: 20px 10px 5px 32%;
+   }
+   .header-right > a {
+       
+       margin-right: 30px;
+       color: white;
+       text-decoration: none;
+       margin-top: 10px;
+       font-size: 17px;
+       font-weight: lighter;
+   }
+   
+   #about {
+       color: #a9508b;
+   }
+   #home:hover {
+       font-weight: bolder;
+   }
+   #about:hover {
+       color: white;
+   }
+   #services:hover {
+       font-weight: bolder;
+   
+   }
+   
+   
+   .register {
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-between;
+       background-color: #35424a;
+       color: white;
+       padding: 20px 50px;
+       
+   }
+   
+   .register-left {
+       display: block;
+       margin: 10px 10px ;
+       padding-bottom: 10px;
+       width: 400px;
+       font-size: 20px;
+       
+       
+   }
+   
+   .register-right {
+       display: flex;
+       flex-wrap: wrap;
+       margin-right: 70px;
+       margin-left:15px ;
+       
+   }
+   
+   #email {
+       height: 35px;
+       width: 250px;
+       margin-right: 3px;
+       padding-left: 15px;
+   
+   }
+   
+   #subscribe {
+       height: 35px;
+       width: 90px;
+       background-color: #a9508b;
+       border: 0px solid #a9508b;
+       color: white;
+   }
+
+}

@@ -1,0 +1,305 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+
+     display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #35424a;
+    width: 100%;
+    border-bottom: 3px solid #a9508b;
+    
+}
+
+.header-left {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    margin: 20px 0px 20px 150px;
+    
+    
+    
+}
+
+.header-left > span {
+    color: #a9508b;
+    
+}
+
+.header-right {
+    margin: 20px 100px 5px 30%;
+}
+.header-right > a {
+    
+    margin-right: 30px;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+#home {
+    color: #a9508b;
+}
+#home:hover {
+    color: white;
+}
+#about:hover {
+    font-weight: bolder;
+}
+#services:hover {
+    font-weight: bolder;
+
+}
+
+main {
+    background-image: url("./img/showcase.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 450px; */
+    
+    
+}
+
+.main > h1 {
+    padding: 100px 20% 0% 20%;
+    font-size: 50px;
+    color: white;
+    line-height: 60px;
+
+}
+
+.main > p {
+    padding: 50px 205px 200px 205px;
+    color: white;
+    line-height: 25px;
+    
+}
+
+.register {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #35424a;
+    color: white;
+    padding: 30px 100px;
+    
+}
+
+.register-left {
+    display: block;
+    margin: 20px 10px ;
+    padding-bottom: 20px;
+    width: 400px;
+    font-size: 20px;
+    
+    
+}
+
+.register-right {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+#email {
+    height: 35px;
+    width: 250px;
+    margin-right: 3px;
+    padding-left: 15px;
+
+}
+
+#subscribe {
+    height: 35px;
+    width: 90px;
+    background-color: #a9508b;
+    border: 0px solid violet;
+    color: white;
+    
+
+}
+
+.main-programs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-bottom: 3px solid violet;
+    padding-bottom: 30px;
+    background-color: #f4f4f4
+}
+.main-programs img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.main-programs div {
+    width: 200px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #fffaf0;
+    align-items: center;
+}
+
+#copyright {
+    margin-top:30px;
+    width: 400px;
+}
+
+#cw-logo {
+    width: 200px;
+    height: 40px;
+    margin-right: 100px;
+}
+
+@media (max-width:550px) {
+    
+    .header-left {
+        display: block;
+        font-size: 30px;
+        color: white;
+        font-weight: bold;
+        margin: 10px 0px 20px 40px;        
+    }
+    
+    .header-left > span {
+        color: #a9508b;
+        
+    }
+    
+    .header-right {
+        
+        margin: 10px 10px 5px 40%;
+    }
+    .header-right > a {
+        
+        margin-right: 20px;
+        color: white;
+        text-decoration: none;
+        margin-top: 10px;
+        font-size: 15px;
+        font-weight: lighter;
+    }
+    
+    #home {
+        color: #a9508b;
+    }
+    
+    main {
+        background-image: url("./img/showcase.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+        
+    }
+    
+    .main > h1 {
+        padding: 100px 15% 0% 14%;
+        font-size: 60px;
+        color: white;
+        line-height: 70px;
+    
+    }
+    
+    .main > p {
+        padding: 40px 45px 30px 45px;
+        color: white;
+        line-height: 25px;
+        
+        
+    }
+    
+    .register {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        background-color: #35424a;
+        color: white;
+        
+        
+    }
+    
+    .register-left {
+        display: block;
+        margin-right: 10px;
+        width: 350px;
+        font-size: 20px;
+        
+        
+    }
+    
+    .register-right {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    
+    #email {
+        height: 35px;
+        width: 220%;
+        margin-right: 100px;
+        padding-left: 15px;
+    
+    }
+    
+    #subscribe {
+        height: 35px;
+        width: 90px;
+        background-color: #a9508b;
+        border: 0px solid #a9508b;
+        
+    
+    }
+    
+    .main-programs {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        border-bottom: 3px solid #a9508b;
+        padding-bottom: 30px;
+        background-color: #f4f4f4
+    }
+    .main-programs img {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    .main-programs div {
+        width: 200px;
+    }
+    
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 15%;
+    
+    }
+    
+    #copyright {
+        margin-top:30px;
+        width: 400px;
+    }
+    
+    #cw-logo {
+        width: 200px;
+        height: 40px;
+        margin-right: 100px;
+    }
+
+}
+
+
+
