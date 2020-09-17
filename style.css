@@ -23,9 +23,7 @@ header {
     font-size: 30px;
     color: white;
     font-weight: bold;
-    margin: 20px 0px 20px 150px;
-    
-    
+    margin: 20px 50px 20px 100px;
     
 }
 
@@ -35,7 +33,7 @@ header {
 }
 
 .header-right {
-    margin: 0px 100px 5px 20px;
+    margin: 0px 100px 5px 2px;
     padding-top: 20px;
 }
 .header-right > a {
@@ -174,7 +172,7 @@ footer {
         font-size: 30px;
         color: white;
         font-weight: bold;
-        margin: 10px 0px 20px 40px;        
+        margin: 10px 90px 20px 60px;        
     }
     
     .header-left > span {
@@ -184,7 +182,7 @@ footer {
     
     .header-right {
         
-        margin: 10px 10px 5px 40%;
+        margin: 10px 10px 5px 30%;
         padding-top: 0px;
     }
     .header-right > a {
