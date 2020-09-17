@@ -3,17 +3,19 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
 }
 
 header {
 
-     display: flex;
+    display: flex;
     flex-wrap: wrap; 
     justify-content: space-between;
     padding: 10px;
     background-color: #35424a;
-    width: 100%;
+    width: 100vw;
     border-bottom: 3px solid #a9508b;
+    
     
 }
 
@@ -33,14 +35,15 @@ header {
 }
 
 .header-right {
-    margin: 20px 100px 5px 30%;
+    margin: 0px 100px 5px 20px;
+    padding-top: 20px;
 }
 .header-right > a {
     
     margin-right: 30px;
     color: white;
     text-decoration: none;
-    margin-top: 10px;
+    margin-top: 20px;
     font-size: 17px;
     font-weight: lighter;
 }
@@ -60,10 +63,10 @@ header {
 }
 
 main {
-    background-image: url("./img/showcase.jpg");
+    background: url("./img/showcase.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    /* height: 450px; */
+    
     
     
 }
@@ -95,7 +98,7 @@ main {
 
 .register-left {
     display: block;
-    margin: 20px 10px ;
+    margin: 20px 10px 20px 60px ;
     padding-bottom: 20px;
     width: 400px;
     font-size: 20px;
@@ -163,8 +166,9 @@ footer {
     margin-right: 100px;
 }
 
-@media (max-width:550px) {
+@media (max-width:1000px) {
     
+  
     .header-left {
         display: block;
         font-size: 30px;
@@ -181,6 +185,7 @@ footer {
     .header-right {
         
         margin: 10px 10px 5px 40%;
+        padding-top: 0px;
     }
     .header-right > a {
         
@@ -225,14 +230,15 @@ footer {
         flex-wrap: wrap;
         justify-content: space-between;
         background-color: #35424a;
-        color: white;
-        
+        color: white; 
+        margin: 0;
+        padding: 20px 0px 20px 50px;
         
     }
     
     .register-left {
         display: block;
-        margin-right: 10px;
+        margin: 0px;
         width: 350px;
         font-size: 20px;
         
@@ -284,7 +290,7 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-left: 15%;
+        padding-left: 15%;
     
     }
     
@@ -299,7 +305,7 @@ footer {
         margin-right: 100px;
     }
 
-}
+} 
 
 
 

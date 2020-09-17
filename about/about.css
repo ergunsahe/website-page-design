@@ -3,17 +3,19 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
 }
 
 header {
 
-     display: flex;
+    display: flex;
     flex-wrap: wrap; 
     justify-content: space-between;
     padding: 10px;
     background-color: #35424a;
-    width: 100%;
+    width: 100vw;
     border-bottom: 3px solid #a9508b;
+    
     
 }
 
@@ -21,7 +23,7 @@ header {
     font-size: 30px;
     color: white;
     font-weight: bold;
-    margin: 20px 0px 20px 170px;
+    margin: 20px 0px 20px 150px;
     
     
     
@@ -33,14 +35,15 @@ header {
 }
 
 .header-right {
-    margin: 20px 180px 5px 30%;
+    margin: 0px 100px 5px 20px;
+    padding-top: 20px;
 }
 .header-right > a {
     
     margin-right: 30px;
     color: white;
     text-decoration: none;
-    margin-top: 10px;
+    margin-top: 20px;
     font-size: 17px;
     font-weight: lighter;
 }
@@ -66,14 +69,14 @@ header {
     justify-content: space-between;
     background-color: #35424a;
     color: white;
-    padding: 20px 150px;
+    padding: 30px 100px;
     
 }
 
 .register-left {
     display: block;
-    margin: 10px 30px ;
-    padding-bottom: 10px;
+    margin: 20px 10px 20px 60px ;
+    padding-bottom: 20px;
     width: 400px;
     font-size: 20px;
     
@@ -83,7 +86,6 @@ header {
 .register-right {
     display: flex;
     flex-wrap: wrap;
-    margin-right: 70px;
     
 }
 
@@ -99,9 +101,12 @@ header {
     height: 35px;
     width: 90px;
     background-color: #a9508b;
-    border: 0px solid #a9508b;
+    border: 0px solid violet;
     color: white;
+    
+
 }
+
 
 
 .about-us {
@@ -156,9 +161,8 @@ h4 {
 footer {
     display: flex;
     flex-direction: column;
-    align-items: center;
     background-color: #fffaf0;
-    border-top: 4px solid #a9508b;
+    align-items: center;
 }
 
 #copyright {
@@ -172,43 +176,34 @@ footer {
     margin-right: 100px;
 }
 
-@media (max-width:500px) {
-    header {
-
-        display: flex;
-       flex-wrap: wrap; 
-       justify-content: space-between;
-       padding: 10px;
-       background-color: #35424a;
-       width: 100%;
-       border-bottom: 3px solid #a9508b;
-       
-   }
-   
-   .header-left {
-       font-size: 30px;
-       color: white;
-       font-weight: bold;
-       margin: 20px 0px 10px 50px;
-   }
-   
-   .header-left > span {
-       color: #a9508b;
-       
-   }
-   
-   .header-right {
-       margin: 20px 10px 5px 32%;
-   }
-   .header-right > a {
-       
-       margin-right: 30px;
-       color: white;
-       text-decoration: none;
-       margin-top: 10px;
-       font-size: 17px;
-       font-weight: lighter;
-   }
+@media (max-width:1000px) {
+    .header-left {
+        display: block;
+        font-size: 30px;
+        color: white;
+        font-weight: bold;
+        margin: 10px 0px 20px 40px;        
+    }
+    
+    .header-left > span {
+        color: #a9508b;
+        
+    }
+    
+    .header-right {
+        
+        margin: 10px 10px 5px 40%;
+        padding-top: 0px;
+    }
+    .header-right > a {
+        
+        margin-right: 20px;
+        color: white;
+        text-decoration: none;
+        margin-top: 10px;
+        font-size: 15px;
+        font-weight: lighter;
+    }
    
    #about {
        color: #a9508b;
@@ -226,50 +221,68 @@ footer {
    
    
    .register {
-       display: flex;
-       flex-wrap: wrap;
-       justify-content: space-between;
-       background-color: #35424a;
-       color: white;
-       padding: 20px 50px;
-       
-   }
-   
-   .register-left {
-       display: block;
-       margin: 10px 10px ;
-       padding-bottom: 10px;
-       width: 400px;
-       font-size: 20px;
-       
-       
-   }
-   
-   .register-right {
-       display: flex;
-       flex-wrap: wrap;
-       margin-right: 70px;
-       margin-left:15px ;
-       
-   }
-   
-   #email {
-       height: 35px;
-       width: 250px;
-       margin-right: 3px;
-       padding-left: 15px;
-   
-   }
-   
-   #subscribe {
-       height: 35px;
-       width: 90px;
-       background-color: #a9508b;
-       border: 0px solid #a9508b;
-       color: white;
-   }
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #35424a;
+    color: white; 
+    margin: 0;
+    padding: 20px 0px 20px 50px;
+    
+}
+
+.register-left {
+    display: block;
+    margin: 0px;
+    width: 350px;
+    font-size: 20px;
+    
+    
+}
+
+.register-right {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+#email {
+    height: 35px;
+    width: 220%;
+    margin-right: 100px;
+    padding-left: 15px;
+
+}
+
+#subscribe {
+    height: 35px;
+    width: 90px;
+    background-color: #a9508b;
+    border: 0px solid #a9508b;
+    
+
+}
 
    .explain {
        margin-right: 20px;
    }
+   footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 15%;
+
+}
+
+#copyright {
+    margin-top:30px;
+    width: 400px;
+}
+
+#cw-logo {
+    width: 200px;
+    height: 40px;
+    margin-right: 100px;
+}
+
 }
