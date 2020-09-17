@@ -163,6 +163,8 @@ footer {
     flex-direction: column;
     background-color: #fffaf0;
     align-items: center;
+    background-color: #fffaf0;
+    border-top: 4px solid #a9508b;
 }
 
 #copyright {
