@@ -23,7 +23,9 @@ header {
     font-size: 30px;
     color: white;
     font-weight: bold;
-    margin: 20px 50px 20px 100px;
+    margin: 20px 0px 20px 130px;
+    
+    
     
 }
 
@@ -33,7 +35,7 @@ header {
 }
 
 .header-right {
-    margin: 0px 100px 5px 2px;
+    margin: 0px 100px 5px 20px;
     padding-top: 20px;
 }
 .header-right > a {
@@ -98,7 +100,7 @@ main {
     display: block;
     margin: 20px 10px 20px 60px ;
     padding-bottom: 20px;
-    width: 400px;
+    width: 385px;
     font-size: 20px;
     
     
@@ -164,6 +166,7 @@ footer {
     margin-right: 100px;
 }
 
+
 @media (max-width:1000px) {
     
   
@@ -172,7 +175,7 @@ footer {
         font-size: 30px;
         color: white;
         font-weight: bold;
-        margin: 10px 90px 20px 60px;        
+        margin: 10px 0px 20px 20px;        
     }
     
     .header-left > span {
@@ -182,7 +185,7 @@ footer {
     
     .header-right {
         
-        margin: 10px 10px 5px 30%;
+        margin: 10px 5px 5px 65px;
         padding-top: 0px;
     }
     .header-right > a {
@@ -208,8 +211,8 @@ footer {
     }
     
     .main > h1 {
-        padding: 100px 15% 0% 14%;
-        font-size: 60px;
+        padding: 60px 10% 0% 4%;
+        font-size: 53px;
         color: white;
         line-height: 70px;
     
@@ -237,7 +240,7 @@ footer {
     .register-left {
         display: block;
         margin: 0px;
-        width: 350px;
+        width: 330px;
         font-size: 20px;
         
         
@@ -251,15 +254,15 @@ footer {
     
     #email {
         height: 35px;
-        width: 220%;
-        margin-right: 100px;
+        width: 200%;
+        margin-right: 90px;
         padding-left: 15px;
     
     }
     
     #subscribe {
         height: 35px;
-        width: 90px;
+        width: 80px;
         background-color: #a9508b;
         border: 0px solid #a9508b;
         
